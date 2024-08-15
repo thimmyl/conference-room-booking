@@ -67,3 +67,5 @@ curl "http://localhost:8080/api/conference-room/bookings?from=2024-08-15T09:45:0
 - Get existing conference booking by ID
 - CRUD operations on the conference rooms
 - CURD operations on the maintenance windows which is currently static
+- Replace in memory database with persistant storage
+- Dockerize the application and the potential storage with docker compose for local setup
